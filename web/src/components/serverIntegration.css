@@ -1,0 +1,83 @@
+.containerServer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100vh;
+  height: 90vh;
+  gap: 10px;
+  border: none;
+  box-shadow: 0px 0px 10px 1px rgb(136, 160, 160);
+  border-radius: 5px;
+}
+
+.box_1{
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.box_2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.input_text{
+  width: 100%;
+  padding: 1px;
+  text-align: center;
+  border: none;
+  box-shadow: 0px 1px 0px 0px white;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  outline: none;
+}
+
+.input_text::placeholder{
+  color: white;
+}
+
+.send_btn_convert{
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.send_btn_convert:hover{
+  filter: brightness(80%);
+  transition: all 0.3s ease-in-out;
+}
+
+.informations_song{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+p{
+  color: white;
+}
+
+a{
+  border: 1px solid red;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}

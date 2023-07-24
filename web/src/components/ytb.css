@@ -1,0 +1,23 @@
+.container_video{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.download_btn{
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #219e21;
+  color: white;
+}
+
+.download_btn:hover{
+  background-color: #219e21cc;
+  transition: all 0.3s ease-in-out;
+}

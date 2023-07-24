@@ -1,0 +1,43 @@
+:root {
+  --background: #4e4e50;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@media (300px <= width <= 600px ){
+  body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  main{
+    width: 100%;
+  }
+
+  .containerServer{
+    box-shadow: none;
+  }
+
+  .container_video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border: 1px solid red;
+  }
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--background)
+}
