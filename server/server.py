@@ -39,7 +39,7 @@ def convert_youtube_to_audio():
 @app.route('/download/<filename>', methods=['GET'])
 def download_file(filename):
     try:
-        decoded_filename = unquote(filename)  # Decode the filename
+        decoded_filename = unquote(filename)
         file_path = f'musicas/{decoded_filename}.mp3'
         return send_file(file_path, as_attachment=True)
     except Exception as e:
