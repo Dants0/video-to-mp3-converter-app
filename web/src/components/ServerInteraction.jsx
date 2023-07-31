@@ -29,7 +29,7 @@ const ServerInteraction = () => {
   return (
     <div className='containerServer'>
       <div className='box_1'>
-        <h1>Conversor de Youtube para MP3</h1>
+        <h1>Convert YTB</h1>
       </div>
       <div className='box_2'>
         <input
