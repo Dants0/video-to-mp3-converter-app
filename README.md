@@ -25,7 +25,22 @@
 ## 🔧 Ferramentas
 - [Flask](https://flask.palletsprojects.com/en/2.3.x/)
 
+```bash
+# Clone o projeto
+$ git clone https://github.com/Dants0/video-to-mp3-converter-app.git
 
+# Navegue até a pasta web e rode
+$ npm install
+
+# Navegue até a pasta server e instale todas as dependencias do python
+$ pip install flask pytube flask_cors urllib.parse
+
+# Dentro da pasta server, inicie o servidor
+$ py server
+
+# Dentro da pasta web, inicie a aplicação
+$ npm run dev
+```
 
 
 
